@@ -1,0 +1,123 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+     } 
+nav {
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+   }
+  nav ul {
+
+    float: right;
+    list-style-type: none; }
+    nav ul li {
+      padding: 0px 20px;
+      display: inline;
+      color: #272e34;
+      text-transform: uppercase;
+      font-size: 12px;
+      letter-spacing: 2pt; }
+
+
+span{
+	 float: left;
+	 padding-top: 15px;
+	 padding-left: 20px;
+	 font-size: 12px;
+	 letter-spacing: 2pt; 
+	 text-align: center;
+	 display: none;
+}
+
+/*pic inside of a div as background*/
+
+#wrapper{
+	width: 1000px;
+	height: 100vh;
+	/*background-color: #ccc;*/
+
+
+}
+
+.pic{
+	background-image: url("https://images.unsplash.com/photo-1467010389552-c18c4d79966f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3249da82fc006506beda65799e367bc6");
+	background-size:100%;
+	width: 1000px;
+	height:600px;
+	float: left;
+	border: 1px solid #ccc;
+	margin: 5px 10px;
+}
+
+
+
+#icon{
+	width: 20px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	display: none
+}
+
+
+/*pic inside of a div as background*/
+@media(max-width: 1280px){
+
+
+
+	
+
+	.pic{
+		width: 800px;
+		height: 470px;
+		float: left;
+	}
+}
+
+
+
+@media(max-width: 640px){
+
+	nav{
+		background-color:#f7f7f7;
+		
+	}
+
+}
+
+
+
+@media(max-width: 480px){
+	.pic{
+		width: 350px;
+		height: 250px;
+		float: left;
+		margin-left: 30px;
+	}
+
+	ul{
+		display: none;
+	}
+
+	#icon{
+		display: unset;
+	}
+
+	span{
+		display: unset;
+	}
+
+
+	nav{
+		background-color:#fff;
+	}
+
+}
+
+
+
+
+
+
